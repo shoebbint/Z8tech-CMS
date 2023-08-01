@@ -37,7 +37,7 @@ const MyCourses = () => {
                 <section className="text-gray-600 body-font bg-transparent ">
                     <div className="container px-5 py-24 mx-auto flex flex-col ">
                         <div className="lg:w-4/6 mx-auto ">
-                            <div className="rounded-lg h-64 overflow-hidden shadow-lg">
+                            <div data-aos="fade-down" className="rounded-lg h-64 overflow-hidden shadow-lg">
                                 <img alt="content" className="object-cover object-center h-full w-full" src={image} />
                             </div>
                             <div className="mt-10">

@@ -1,0 +1,6 @@
+.contact-bg{
+    background-image: url('../../assets/contactbg.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}

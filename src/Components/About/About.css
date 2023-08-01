@@ -1,0 +1,7 @@
+.card-container {
+    transition: transform 0.3s; /* Add a transition effect for smooth animation */
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05); /* Increase the scale on hover to make it slightly bigger */
+  }

@@ -1,5 +1,6 @@
 
 import Navbar from "../../Shared/Header/Navbar/Navbar";
+import image from "../../../assets/detail.jpg";
 const CourseDetails = () => {
     return (
         <div>
@@ -30,6 +31,12 @@ const CourseDetails = () => {
                     </div>
                 </div>
             </div>
+            <div className="lg:w-4/6 mx-auto -mt-32 ">
+        <div data-aos="fade-down" className="rounded-lg h-64 overflow-hidden shadow-lg">
+          <img alt="content" className="object-cover object-center  h-80 w-full" src={image} />
+        </div>
+      </div>
+
             <div className=" ">
                 <section className="text-gray-600 body-font overflow-hidden">
                     <div className="container px-5 py-24 mx-auto">

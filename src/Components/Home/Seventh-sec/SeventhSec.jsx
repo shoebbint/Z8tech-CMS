@@ -1,5 +1,7 @@
 import review from "../../../assets/review.png"
-
+import teacher from "../../../assets/ins1.jpg"
+import teacher2 from "../../../assets/ins2.jpg"
+import teacher3 from "../../../assets/ins3.jpg"
 // Import Swiper React components
 import {
     Swiper, SwiperSlide
@@ -41,7 +43,7 @@ const SeventhSec = () => {
                                 <div className="h-full text-center">
                                     <div className="avatar">
                                         <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                            <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                            <img src={teacher2} />
                                         </div>
                                     </div>
                                     <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90s cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
@@ -58,7 +60,7 @@ const SeventhSec = () => {
                                 <div className="h-full text-center">
                                     <div className="avatar">
                                         <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                            <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                            <img src={teacher} />
                                         </div>
                                     </div>
                                     <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90s cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
@@ -75,7 +77,7 @@ const SeventhSec = () => {
                                 <div className="h-full text-center">
                                     <div className="avatar">
                                         <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                            <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                            <img src={teacher3} />
                                         </div>
                                     </div>
                                     <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90s cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
@@ -92,7 +94,7 @@ const SeventhSec = () => {
                                 <div className="h-full text-center">
                                     <div className="avatar">
                                         <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                            <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                            <img src={teacher2}/>
                                         </div>
                                     </div>
                                     <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90s cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>

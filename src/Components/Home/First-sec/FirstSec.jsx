@@ -10,8 +10,8 @@ const FirstSec = () => {
     <img src={firstsec} className="w-10/12 rounded-lg " />
     <div>
     <h1 className="text-5xl font-bold">Start Better Learning Future From Here</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
+      <p className="py-6"> This comprehensive platform enables coaches to efficiently manage their clients, schedules, and resources, all in one place. </p>
+      <button className="btn btn-primary">Start today</button>
         </div>
     </div>
   </div>
