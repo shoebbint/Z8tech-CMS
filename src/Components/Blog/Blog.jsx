@@ -11,7 +11,7 @@ const Blog = () => {
         <div className="  h-96 py-20 pb-36 flex justify-center items-center ">
 
           <div className="text-sm breadcrumbs text-center ">
-            <h1 className="text-2xl my-5">Faq</h1>
+            <h1 className="text-2xl  my-5">Blogs</h1>
             <ul>
               <li>
                 <a>
@@ -38,7 +38,7 @@ const Blog = () => {
           <img alt="content" className="object-cover object-center  h-80 w-full" src={image} />
         </div>
       </div>
-      <div className="container mx-auto p-6 px-32">
+      <div className="container mx-auto p-6 px-32 mt-20">
         <h1 className="text-5xl font-bold mb-8 px-10">Blog</h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* First Column: Blog */}

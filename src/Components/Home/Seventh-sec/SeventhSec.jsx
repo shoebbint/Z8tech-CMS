@@ -19,7 +19,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 const SeventhSec = () => {
     return (
         <div className="first-sec py-12">
-            <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+            <h1 className="text-3xl font-bold title-font text-gray-900 mb-12 text-center">Testimonials</h1>
             <section className="grid grid-cols-1 lg:grid-cols-2 my-auto px-20 items-center">
 
                 <div>

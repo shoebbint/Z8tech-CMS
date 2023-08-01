@@ -1,5 +1,5 @@
 import Navbar from "../Shared/Header/Navbar/Navbar";
-import image from "../../assets/contact.jpg";
+
 import './Contact.css'
 const Contact = () => {
   return (
@@ -33,7 +33,7 @@ const Contact = () => {
       </div>
       <div className="lg:w-4/6 mx-auto -mt-32 ">
         <div data-aos="fade-down" className="rounded-lg h-64 overflow-hidden shadow-lg">
-          <img alt="content" className="object-cover object-center h-full w-full" src={image} />
+          <img alt="content" className="object-cover object-center h-full w-full" src="https://img.freepik.com/free-vector/contact-us-concept-landing-page_52683-18637.jpg?size=626&ext=jpg&uid=R90121247&ga=GA1.2.1279309487.1687067718&semt=sph" />
         </div>
       </div>
       {/* contact us form section starts here */}

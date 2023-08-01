@@ -12,6 +12,7 @@ import Blog from './Components/Blog/Blog'
 import Login from './Components/Shared/Login/Login'
 import Register from './Components/Shared/Register/Register'
 import About from './Components/About/About'
+import AllCourses from './Components/All-courses/AllCourses'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
   <Route path='/login' element={<Login></Login>}></Route>
   <Route path='/register' element={<Register></Register>}></Route>
   <Route path='/about' element={<About></About>}></Route>
+  <Route path='/allcourses' element={<AllCourses></AllCourses>}></Route>
 </Routes>
 
 <Footer></Footer>

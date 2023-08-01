@@ -1,7 +1,8 @@
 // Import the required dependencies and styles
 import Navbar from "../Shared/Header/Navbar/Navbar";
 import "./About.css";
-import image from "../../assets/about2.jpg";
+
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 // Main About component
 const About = () => {
@@ -12,7 +13,7 @@ const About = () => {
         <div className="  h-96 py-20 pb-36 flex justify-center items-center ">
 
           <div className="text-sm breadcrumbs text-center ">
-            <h1 className="text-2xl my-5">Faq</h1>
+            <h1 className="text-2xl my-5">About Us</h1>
             <ul>
               <li>
                 <a>
@@ -36,41 +37,36 @@ const About = () => {
       </div>
       <div className="lg:w-4/6 mx-auto -mt-32 ">
         <div data-aos="fade-down" className="rounded-lg h-64 overflow-hidden shadow-lg">
-          <img alt="content" className="object-cover object-center  h-80 w-full" src={image} />
+          <img alt="content" className="object-cover object-center  h-80 w-full" src="https://img.freepik.com/free-vector/brainstorming-concept-landing-page_23-2148298375.jpg?size=626&ext=jpg&uid=R90121247&ga=GA1.2.1279309487.1687067718&semt=ais" />
         </div>
       </div>
-      <div className="px-36">
+      <div className="mt-20">
         {/* Section 1: Intro */}
 
-        <section className="text-gray-600 body-font ">
+        <section className="text-gray-600 body-font px-36">
           <div className="container px-5 py-24 mx-auto">
-            <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                Master Cleanse Reliac Heirloom
+            <div className="flex flex-col text-center w-full mb-10">
+              <h1 className="sm:text-3xl text-4xl font-bold title-font mb-4 text-gray-900">
+                Gallery
               </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-                gentrify, subway tile poke farm-to-table. Franzen you probably
-                havent heard of them man bun deep jianbing selfies heirloom.
-              </p>
             </div>
             <div className="flex flex-wrap md:-m-2 -m-1">
               <div className="flex flex-wrap w-1/2">
-                <div className="md:p-2 p-1 w-1/2">
+                <div data-aos="flip-left" className="md:p-2 p-1 w-1/2">
                   <img
                     alt="gallery"
                     className="w-full object-cover h-full object-center block"
                     src="/src/assets/Coaching1-min.jpg"
                   />
                 </div>
-                <div className="md:p-2 p-1 w-1/2">
+                <div data-aos="flip-left" className="md:p-2 p-1 w-1/2">
                   <img
                     alt="gallery"
                     className="w-full object-cover h-full object-center block"
                     src="/src/assets/Coaching2-min.jpg"
                   />
                 </div>
-                <div className="md:p-2 p-1 w-full">
+                <div data-aos="flip-right" className="md:p-2 p-1 w-full">
                   <img
                     alt="gallery"
                     className="w-full h-full object-cover object-center block"
@@ -79,21 +75,21 @@ const About = () => {
                 </div>
               </div>
               <div className="flex flex-wrap w-1/2">
-                <div className="md:p-2 p-1 w-full">
+                <div data-aos="flip-right" className="md:p-2 p-1 w-full">
                   <img
                     alt="gallery"
                     className="w-full h-full object-cover object-center block"
                     src="/src/assets/Coaching4-min.jpg"
                   />
                 </div>
-                <div className="md:p-2 p-1 w-1/2">
+                <div data-aos="flip-right" className="md:p-2 p-1 w-1/2">
                   <img
                     alt="gallery"
                     className="w-full object-cover h-full object-center block"
                     src="/src/assets/Coaching5-min.jpg"
                   />
                 </div>
-                <div className="md:p-2 p-1 w-1/2">
+                <div data-aos="flip-right" className="md:p-2 p-1 w-1/2">
                   <img
                     alt="gallery"
                     className="w-full object-cover h-full object-center block"
@@ -105,9 +101,9 @@ const About = () => {
           </div>
         </section>
         {/* Section 2: Our History */}
-        <section className="text-gray-600 body-font">
+        <section className="text-gray-600 body-font px-36">
           <div className="container px-5 py-24 mx-auto">
-            <h1 className="text-center text-4xl text-black font-medium mb-10">
+            <h1 className="text-center text-4xl font-bold text-black  mb-5">
               Our History
             </h1>
             <p className="text-center mb-10">
@@ -164,8 +160,8 @@ const About = () => {
         </section>
 
         {/* Section 3: Upgrade Your Skills */}
-        <section className="text-gray-600 body-font">
-          <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <section className="text-gray-600 body-font first-sec">
+          <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center px-36">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
               <img
                 className="object-cover object-center rounded w-[720px] h-[500px]"
@@ -195,10 +191,10 @@ const About = () => {
         </section>
 
         {/* Section 4: Our Team */}
-        <section className="text-gray-600 body-font">
+        <section className="text-gray-600 body-font px-36">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h1 className="sm:text-3xl text-4xl font-medium title-font mb-4 text-gray-900">
+              <h1 className="sm:text-3xl text-4xl font-bold title-font mb-4 text-gray-900">
                 Our Team
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -348,9 +344,9 @@ const About = () => {
           </div>
         </section>
         {/* Section 5: Quality Course Instructor And Support */}
-        <section className="text-gray-600 body-font">
-          <div className="container px-5 py-24 mx-auto">
-            <h1 className="text-black text-4xl text-center font-medium mb-5">
+        <section className="text-gray-600 body-font first-sec">
+          <div className="container px-5 py-24 mx-auto px-36 text-center">
+            <h1 className="text-black text-4xl text-center font-bold mb-5">
               Quality Course <br /> Instructor And Support
             </h1>
             <p className="text-center mb-12">

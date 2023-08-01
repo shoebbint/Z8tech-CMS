@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import about from "../../../assets/about.png"
 const FourthSec = () => {
     return (
@@ -16,9 +17,7 @@ const FourthSec = () => {
                         </h1>
                         <div className="flex  rounded-lg border-gray-200 border-opacity-50 p-5 sm:flex-row flex-col">
                             <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center  rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                </svg>
+                            <img src="https://cdn-icons-png.flaticon.com/512/4737/4737471.png" alt="" />
                             </div>
                             <div className="flex-grow">
 
@@ -30,9 +29,7 @@ const FourthSec = () => {
                         </div>
                         <div className="flex  rounded-lg border-gray-200 border-opacity-50 p-5 sm:flex-row flex-col">
                             <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                </svg>
+                          <img src="https://cdn-icons-png.flaticon.com/512/6427/6427307.png" alt="" />
                             </div>
                             <div className="flex-grow">
 
@@ -45,9 +42,7 @@ const FourthSec = () => {
                         </div>
                         <div className="flex  rounded-lg border-gray-200 border-opacity-50 p-5 sm:flex-row flex-col">
                             <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                </svg>
+                            <img src="https://cdn-icons-png.flaticon.com/512/2170/2170765.png" alt="" />
                             </div>
                             <div className="flex-grow">
 
@@ -59,7 +54,7 @@ const FourthSec = () => {
                         </div>
                         <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
                         <div className="flex justify-center">
-                        <button className="btn btn-accent btn-xs sm:btn-sm md:btn-md lg:btn-lg">Button</button>
+                <Link to="/about">        <button className="py-5 px-10 btn btn-accent bg-red-500 hover:bg-red-400 border-0 text-white ">Know More </button></Link>
                         </div>
                     </div>
                 </div>
