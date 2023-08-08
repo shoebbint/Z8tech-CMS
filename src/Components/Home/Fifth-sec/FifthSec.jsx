@@ -1,4 +1,4 @@
-
+import './FifthSec.css';
 // Import Swiper React components
 import { RiSoundModuleFill } from 'react-icons/ri';
 import { BsFillClockFill } from 'react-icons/bs';
@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import './fifthSec.css';
+
 
 
 // import required modules
@@ -19,12 +19,12 @@ import { Link } from 'react-router-dom';
 const FifthSec = () => {
     return (
         <div className='first-sec py-20'>
-                <div className="flex flex-col text-center w-full mb-10">
-      <h1 className="sm:text-3xl text-4xl font-bold title-font mb-4 text-gray-900">Popular Courses</h1>
-      <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <div className="flex flex-col text-center w-full mb-10">
+                <h1 className="sm:text-3xl text-4xl font-bold title-font mb-4 text-gray-900">Popular Courses</h1>
+                <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
 
-      A wide variety of courses to choose from.</p>
-    </div>
+                    A wide variety of courses to choose from.</p>
+            </div>
             <Swiper
                 slidesPerView={4}
                 spaceBetween={0}
@@ -51,11 +51,11 @@ const FifthSec = () => {
                 modules={[Scrollbar]}
                 className="mySwiper "
             >
-                
+
                 <SwiperSlide className='bg-transparent mx-4'>
                     <div className="p-4 shadow-lg ">
                         <div className="h-full flex flex-col items-center text-center">
-            
+
                             <img alt="team" className="relative  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901791.jpg?w=996&t=st=1690889374~exp=1690889974~hmac=a69f1843c77cca34da9a2ca2ee6248c34f0350c8ad306abd8fae1ae7ddf6d67f" />
                             <div className="absolute top-05 left-0 badge p-3  z-50 badge-secondary"><h2>Web Design</h2></div>
                             <div className="w-full">
@@ -113,7 +113,7 @@ const FifthSec = () => {
                 <SwiperSlide className='bg-transparent mx-4'>
                     <div className="p-4 shadow-lg ">
                         <div className="h-full flex flex-col items-center text-center">
-            
+
                             <img alt="team" className="relative  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://img.freepik.com/free-photo/colleagues-working-together-conference-room_158595-5236.jpg?w=996&t=st=1690889171~exp=1690889771~hmac=c024331773f3f237b41e3fb45228bcea3b79bb366fa766e8563924426bdb0c2c" />
                             <div className="absolute top-05 left-0 badge p-3  z-50 badge-secondary"><h2>Java</h2></div>
                             <div className="w-full">
@@ -171,7 +171,7 @@ const FifthSec = () => {
                 <SwiperSlide className='bg-transparent mx-4'>
                     <div className="p-4 shadow-lg ">
                         <div className="h-full flex flex-col items-center text-center">
-            
+
                             <img alt="team" className="relative  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://img.freepik.com/free-photo/giving-advice-group-young-people-casual-clothes-working-modern-office_146671-16496.jpg?w=996&t=st=1690889206~exp=1690889806~hmac=0b9ab73a5ceb2217a184ce93b6e9afafab084918d6b86badbef7533f135d4c07" />
                             <div className="absolute top-05 left-0 badge p-3  z-50 badge-secondary"><h2>Nextjs</h2></div>
                             <div className="w-full">
@@ -229,7 +229,7 @@ const FifthSec = () => {
                 <SwiperSlide className='bg-transparent mx-4'>
                     <div className="p-4 shadow-lg ">
                         <div className="h-full flex flex-col items-center text-center">
-            
+
                             <img alt="team" className="relative  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010136.jpg?size=626&ext=jpg&uid=R90121247&ga=GA1.2.1279309487.1687067718&semt=ais" />
                             <div className="absolute top-05 left-0 badge p-3  z-50 badge-secondary"><h2>Mathematics</h2></div>
                             <div className="w-full">
@@ -287,7 +287,7 @@ const FifthSec = () => {
                 <SwiperSlide className='bg-transparent mx-4'>
                     <div className="p-4 shadow-lg ">
                         <div className="h-full flex flex-col items-center text-center">
-            
+
                             <img alt="team" className="relative  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://img.freepik.com/free-vector/teaching-students-online-internet-learning-computer-programming-online-it-courses-best-online-it-training-online-certification-courses-concept_335657-194.jpg?size=626&ext=jpg&uid=R90121247&ga=GA1.2.1279309487.1687067718&semt=ais" />
                             <div className="absolute top-05 left-0 badge p-3  z-50 badge-secondary"><h2>Web Design</h2></div>
                             <div className="w-full">
@@ -345,7 +345,7 @@ const FifthSec = () => {
                 <SwiperSlide className='bg-transparent mx-4'>
                     <div className="p-4 shadow-lg ">
                         <div className="h-full flex flex-col items-center text-center">
-            
+
                             <img alt="team" className="relative  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://img.freepik.com/free-photo/group-young-people-casual-clothes-working-modern-office_146671-16433.jpg?size=626&ext=jpg&uid=R90121247&ga=GA1.2.1279309487.1687067718&semt=ais" />
                             <div className="absolute top-05 left-0 badge p-3  z-50 badge-secondary"><h2>Web Design</h2></div>
                             <div className="w-full">
@@ -403,7 +403,7 @@ const FifthSec = () => {
                 <SwiperSlide className='bg-transparent mx-4'>
                     <div className="p-4 shadow-lg ">
                         <div className="h-full flex flex-col items-center text-center">
-            
+
                             <img alt="team" className="relative  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://img.freepik.com/free-photo/pensive-man-classroom-with-computers_23-2147663678.jpg?size=626&ext=jpg&uid=R90121247&ga=GA1.2.1279309487.1687067718&semt=ais" />
                             <div className="absolute top-05 left-0 badge p-3  z-50 badge-secondary"><h2>Web Design</h2></div>
                             <div className="w-full">
@@ -461,7 +461,7 @@ const FifthSec = () => {
                 <SwiperSlide className='bg-transparent mx-4'>
                     <div className="p-4 shadow-lg ">
                         <div className="h-full flex flex-col items-center text-center">
-            
+
                             <img alt="team" className="relative  flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://img.freepik.com/free-photo/colleagues-working-together-conference-room_158595-5235.jpg?w=996&t=st=1690889327~exp=1690889927~hmac=e0cac5d47d95f01f44a4bfa631b4ec80293531fe7831f6a744668b1c0d9d2fa4" />
                             <div className="absolute top-05 left-0 badge p-3  z-50 badge-secondary"><h2>Web Design</h2></div>
                             <div className="w-full">
