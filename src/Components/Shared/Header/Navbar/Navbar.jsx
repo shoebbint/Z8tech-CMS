@@ -13,13 +13,13 @@ const Navbar = () => {
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link to="/">Home</Link ></li>
         <li>
-          <a>Parent</a>
+          <Link>Parent</Link>
           <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+            <li><Link>Submenu 1</Link></li>
+            <li><Link>Submenu 2</Link></li>
           </ul>
         </li>
-        <li><a>Item 3</a></li>
+        <li><Link>Item 3</Link></li>
       </ul>
     </div>
     <Link to="/" className=" w-40 "><img src={logo} alt="" /></Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">      <li><Link to="/login">Login</Link></li></a>
+    <Link className="btn">      <li><Link to="/login">Login</Link></li></Link>
   </div>
 </div>
         </div>
