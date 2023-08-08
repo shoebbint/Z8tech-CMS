@@ -1,5 +1,5 @@
 
-import footer from "../../../assets/logo/Z8-tech.jpg"
+import logo from "../../../assets/logo.png"
 const Footer = () => {
   return (
     <div>
@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="bg-gradient-to-r from-pink-300  to-purple-300">
           <div className="container px-5 py-2 mx-auto flex items-center sm:flex-row flex-col">
             <a className="flex title-font font-bold items-center md:justify-start justify-center text-gray-900">
-              <img className="w-24" src={footer} alt="" />
+              <img className="w-24" src={logo} alt="" />
               <span className="ml-3 text-xl">z8-Tech</span>
             </a>
             <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2023 Z8-tech —

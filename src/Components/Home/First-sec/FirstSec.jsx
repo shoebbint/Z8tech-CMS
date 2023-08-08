@@ -11,7 +11,7 @@ const FirstSec = () => {
     <div>
     <h1 className="text-5xl font-bold">Start Better Learning Future From Here</h1>
       <p className="py-6"> This comprehensive platform enables coaches to efficiently manage their clients, schedules, and resources, all in one place. </p>
-      <button className="btn btn-primary">Start today</button>
+      <button className="btn text-white btn-primary bg-red-500 hover:bg-red-400 border-0">Start today</button>
         </div>
     </div>
   </div>

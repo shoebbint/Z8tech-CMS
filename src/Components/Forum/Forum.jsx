@@ -45,7 +45,7 @@ const Forum = () => {
                             </div>
                             <div className="flex flex-col sm:flex-row mt-10">
                                 <div className="sm:w-2/3 sm:pr-8 sm:py-8  sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                                    <div className="flex flex-wrap -m-2">
+                                    <div className="flex flex-wrap -m-2 mb-5 ">
                                         <div className="p-2  w-full">
                                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                                 <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
@@ -67,7 +67,7 @@ const Forum = () => {
 
                                         </div>
                                     </div>
-                                    <div className="flex flex-wrap -m-2">
+                                    <div className="flex flex-wrap -m-2 mb-5">
                                         <div className="p-2  w-full">
                                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                                 <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
@@ -89,7 +89,73 @@ const Forum = () => {
 
                                         </div>
                                     </div>
-                                    <div className="flex flex-wrap -m-2">
+                                    <div className="flex flex-wrap -m-2 mb-5">
+                                        <div className="p-2  w-full">
+                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-gray-900 title-font font-bold">How to buy course from Z8-tech</h2>
+                                                    <p className="text-gray-500">To buy course please contact with us </p>
+                                                    <div className="pt-5 flex justify-between">
+                                                        <div className="badge badge-ghost p-3">By <span className="font-bold mx-2">Md ifteakher alam akib</span> </div>
+                                                        <p>Instructor</p>
+                                                        <p>24th July 2023</p>
+                                                    </div>
+                                                    <div className="flex  justify-end pt-3 me-0">
+                                                        <p className="flex justify-center items-center me-5"><AiFillLike className="me-1"/>30</p>
+                                                        <p className="flex justify-center items-center me-5"> <GrView className="me-1" /> 233</p>
+                                                        <p className="flex justify-center items-center me-5"><FaComments className="me-1"/>22</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-wrap -m-2 mb-5">
+                                        <div className="p-2  w-full">
+                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-gray-900 title-font font-bold">How to buy course from Z8-tech</h2>
+                                                    <p className="text-gray-500">To buy course please contact with us </p>
+                                                    <div className="pt-5 flex justify-between">
+                                                        <div className="badge badge-ghost p-3">By <span className="font-bold mx-2">Md ifteakher alam akib</span> </div>
+                                                        <p>Instructor</p>
+                                                        <p>24th July 2023</p>
+                                                    </div>
+                                                    <div className="flex  justify-end pt-3 me-0">
+                                                        <p className="flex justify-center items-center me-5"><AiFillLike className="me-1"/>30</p>
+                                                        <p className="flex justify-center items-center me-5"> <GrView className="me-1" /> 233</p>
+                                                        <p className="flex justify-center items-center me-5"><FaComments className="me-1"/>22</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-wrap -m-2 mb-5">
+                                        <div className="p-2  w-full">
+                                            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                                <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />
+                                                <div className="flex-grow">
+                                                    <h2 className="text-gray-900 title-font font-bold">How to buy course from Z8-tech</h2>
+                                                    <p className="text-gray-500">To buy course please contact with us </p>
+                                                    <div className="pt-5 flex justify-between">
+                                                        <div className="badge badge-ghost p-3">By <span className="font-bold mx-2">Md ifteakher alam akib</span> </div>
+                                                        <p>Instructor</p>
+                                                        <p>24th July 2023</p>
+                                                    </div>
+                                                    <div className="flex  justify-end pt-3 me-0">
+                                                        <p className="flex justify-center items-center me-5"><AiFillLike className="me-1"/>30</p>
+                                                        <p className="flex justify-center items-center me-5"> <GrView className="me-1" /> 233</p>
+                                                        <p className="flex justify-center items-center me-5"><FaComments className="me-1"/>22</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-wrap -m-2 mb-5">
                                         <div className="p-2  w-full">
                                             <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                                 <img alt="team" className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80" />

@@ -161,7 +161,7 @@ const About = () => {
 
         {/* Section 3: Upgrade Your Skills */}
         <section className="text-gray-600 body-font first-sec">
-          <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center px-36">
+          <div className="container mx-auto flex py-24 md:flex-row flex-col items-center px-36">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
               <img
                 className="object-cover object-center rounded w-[720px] h-[500px]"
@@ -345,7 +345,7 @@ const About = () => {
         </section>
         {/* Section 5: Quality Course Instructor And Support */}
         <section className="text-gray-600 body-font first-sec">
-          <div className="container px-5 py-24 mx-auto px-36 text-center">
+          <div className="container  py-24 mx-auto px-36 text-center">
             <h1 className="text-black text-4xl text-center font-bold mb-5">
               Quality Course <br /> Instructor And Support
             </h1>
